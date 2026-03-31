@@ -1,13 +1,13 @@
-# SuperGaussians: Enhancing Gaussian Splatting Using Primitives with Spatially Varying Colors
+# SVGS: Enhancing Gaussian Splatting Using Primitives with Spatially Varying Colors
 
 
 ![Teaser image](assets/teaser.png)
 [[Project]](https://ruixu.me/html/SuperGaussians/index.html) [[Arxiv]](http://arxiv.org/abs/2411.18966)
 
 
-Gaussian Splattings demonstrate impressive results in multi-view reconstruction based on Gaussian explicit representations. However, the current Gaussian primitives only have a single view-dependent color and an opacity to represent the appearance and geometry of the scene, resulting in a non-compact representation. In this paper, we introduce a new method called SuperGaussians that utilizes spatially varying colors and opacity in a single Gaussian primitive to improve its representation ability. We have implemented bilinear interpolation, movable kernels, and even tiny neural networks as spatially varying functions. Quantitative and qualitative experimental results demonstrate that all three functions outperform the baseline, with the best movable kernels achieving superior novel view synthesis performance on multiple datasets, highlighting the strong potential of spatially varying functions. Our code will be available upon acceptance.
+Gaussian Splattings demonstrate impressive results in multi-view reconstruction based on Gaussian explicit representations. However, the current Gaussian primitives only have a single view-dependent color and an opacity to represent the appearance and geometry of the scene, resulting in a non-compact representation. In this paper, we introduce a new method called SVGS that utilizes spatially varying colors and opacity in a single Gaussian primitive to improve its representation ability. We have implemented bilinear interpolation, movable kernels, and even tiny neural networks as spatially varying functions. Quantitative and qualitative experimental results demonstrate that all three functions outperform the baseline, with the best movable kernels achieving superior novel view synthesis performance on multiple datasets, highlighting the strong potential of spatially varying functions. 
 
-### News: We have release the MLP version of SuperGaussians! Find our code [[here]](https://github.com/Xrvitd/SuperGaussians_MLP)!
+### News: We have release the MLP version of SVGS! Find our code [[here]](https://github.com/Xrvitd/SVGS_MLP)!
 
 ## Installation
 
@@ -18,7 +18,7 @@ git clone
 # if you have an environment used for 3dgs, use it
 # if not, create a new environment
 conda env create --file environment.yml
-conda activate SuperGaussians
+conda activate SVGS
 ```
 ## Training
 To train a scene, simply use
