@@ -1,4 +1,4 @@
-name: SuperGaussians
+name: SVGS
 channels:
   - pytorch
   - nvidia
